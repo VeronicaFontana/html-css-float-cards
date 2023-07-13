@@ -24,6 +24,39 @@ h1{
 
 .box{
   background-color: #0F0E17;
-  width: calc(100% / 3 - 10px);
-  height: 50px;
+  width: calc(100% / 3);
+  height: fit-content;
+  display: inline-block;
+  margin: 20px;
+}
+
+ol{
+  list-style: none;
+}
+
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.intern-text{
+  font-size: 10px;
+  color: white;
+  margin: 30px;
+}
+
+img{
+  max-width: 100%;
+  height: 100px;
+  float: left;
+  margin-right: 10px;
 }

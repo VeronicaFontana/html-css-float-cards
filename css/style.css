@@ -38,20 +38,21 @@ img{
 .box{
   background-color: #0F0E17;
   height: 100px;
-  margin: 10px;
-  width: 300px;
+  min-width: calc(100% / 3 - 20px);
   display: inline-block;
+  margin: 5px;
 }
 
 .box-text{
+  padding: 10px;
   color: white;
-  margin: 20px;
+  float: left;
   text-align: left;
 }
 
-.box-text span{
+h3{
   text-transform: uppercase;
-  font-weight: bold;
+  padding-bottom: 5px;
 }
 
 .box-text span, .box-text p{
@@ -59,7 +60,7 @@ img{
 }
 
 a{
-  color: rgb(74, 74, 195);
+  color: rgb(118, 118, 227);
   text-decoration: none;
 }
 
